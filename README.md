@@ -4,6 +4,8 @@ Adapting [@callum-oakley/keymap](https://github.com/callum-oakley/keymap) for my
 Below is my 46-key keymap.
 Other keymap graphics can be seen in their sub-directories.
 
+Instructions on how to adapt this repository for your own key maps can be found in [usage.md](USAGE.md).
+
 ---
 
 Legend:
