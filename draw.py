@@ -96,10 +96,13 @@ def print_key(x, y, key, combo_flag):
         f'<rect rx="{KEY_RX}" ry="{KEY_RY}" x="{x + INNER_PAD_W}" y="{y + INNER_PAD_H}" width="{KEY_W}" height="{KEY_H}" class="{key_class}" />'
     )
 
+    if "invisible" in key_class:
+        key = ""
+
     # prepare text
     words = key.split()
     y += (KEYSPACE_H - (len(words) - 1) * LINE_SPACING) / 2
-    
+
     # prints text on key
     for word in key.split():
         print(
