@@ -26,6 +26,7 @@ There are various functions for affecting the appearance of a key:
 - `ch()` for denoting that a key is part of a combo which must be held
 - `nm()` for denoting that a key is in the number row
 - `ph()` for hiding a key that is used as a blank space for formatting
+
 These functions are used as wrappers around keys, like `nm("1")` or `hl('shift")`.
 
 ## Image Generation
