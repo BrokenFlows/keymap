@@ -48,6 +48,10 @@ STYLE = """
     .number{
         fill: #bfc2c7
     }
+
+    .invisible{
+        opacity: 0;
+    }
 """
 
 
