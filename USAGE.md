@@ -1,7 +1,8 @@
 # Usage
 
+## Requirements
 This repository creates keymap SVG image using python.
-As such, you must have python3 installed to use this tool.
+As such, you must have `python3` installed to use this tool.
 
 ## Editing Keymap Files
 The keymaps are defined in python files following this structure:
